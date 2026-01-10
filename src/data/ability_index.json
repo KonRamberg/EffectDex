@@ -1,0 +1,3564 @@
+{
+  "abilities": {
+    "levitate": {
+      "name": "Levitate",
+      "effect": "Evades ground moves."
+    },
+    "flash-fire": {
+      "name": "Flash Fire",
+      "effect": "Protects against fire moves.  Once one has been blocked, the Pokémon's own Fire moves inflict 1.5× damage until it leaves battle."
+    },
+    "water-absorb": {
+      "name": "Water Absorb",
+      "effect": "Absorbs water moves, healing for 1/4 max HP."
+    },
+    "volt-absorb": {
+      "name": "Volt Absorb",
+      "effect": "Absorbs electric moves, healing for 1/4 max HP."
+    },
+    "sap-sipper": {
+      "name": "Sap Sipper",
+      "effect": "Absorbs grass moves, raising Attack one stage."
+    },
+    "storm-drain": {
+      "name": "Storm Drain",
+      "effect": "Redirects single-target water moves to this Pokémon where possible.  Absorbs Water moves, raising Special Attack one stage."
+    },
+    "lightning-rod": {
+      "name": "Lightning Rod",
+      "effect": "Redirects single-target electric moves to this Pokémon where possible.  Absorbs Electric moves, raising Special Attack one stage."
+    },
+    "motor-drive": {
+      "name": "Motor Drive",
+      "effect": "Absorbs electric moves, raising Speed one stage."
+    },
+    "thick-fat": {
+      "name": "Thick Fat",
+      "effect": "Halves damage from fire and ice moves."
+    },
+    "filter": {
+      "name": "Filter",
+      "effect": "Decreases damage taken from super-effective moves by 1/4."
+    },
+    "solid-rock": {
+      "name": "Solid Rock",
+      "effect": "Decreases damage taken from super-effective moves by 1/4."
+    },
+    "prism-armor": {
+      "name": "Prism Armor",
+      "effect": "Reduces super-effective damage to 0.75×."
+    },
+    "magic-guard": {
+      "name": "Magic Guard",
+      "effect": "Protects against damage not directly caused by a move."
+    },
+    "heatproof": {
+      "name": "Heatproof",
+      "effect": "Halves damage from fire moves and burns."
+    },
+    "water-bubble": {
+      "name": "Water Bubble",
+      "effect": "Halves damage from Fire moves, doubles damage of Water moves, and prevents burns."
+    },
+    "dry-skin": {
+      "name": "Dry Skin",
+      "effect": "Causes 1/8 max HP in damage each turn during strong sunlight, but heals for 1/8 max HP during rain.  Increases damage from fire moves to 1.25×, but absorbs water moves, healing for 1/4 max HP."
+    },
+    "fluffy": {
+      "name": "Fluffy",
+      "effect": "Damage from contact moves is halved.  Damage from Fire moves is doubled."
+    },
+    "fur-coat": {
+      "name": "Fur Coat",
+      "effect": "Halves damage from physical attacks."
+    },
+    "ice-scales": {
+      "name": "Ice Scales",
+      "effect": "Halves damage from Special moves."
+    },
+    "multiscale": {
+      "name": "Multiscale",
+      "effect": "Halves damage taken from full HP."
+    },
+    "shadow-shield": {
+      "name": "Shadow Shield",
+      "effect": "When this Pokémon has full HP, regular damage from moves is halved."
+    },
+    "delta-stream": {
+      "name": "Delta Stream",
+      "effect": "Creates a mysterious air current, which cannot be replaced and causes moves to never be super effective against Flying Pokémon."
+    },
+    "desolate-land": {
+      "name": "Desolate Land",
+      "effect": "Creates extremely harsh sunlight, which has all the properties of Sunny Day, cannot be replaced, and causes damaging Water moves to fail."
+    },
+    "primordial-sea": {
+      "name": "Primordial Sea",
+      "effect": "Creates heavy rain, which has all the properties of Rain Dance, cannot be replaced, and causes damaging Fire moves to fail."
+    },
+    "wonder-guard": {
+      "name": "Wonder Guard",
+      "effect": "Protects against damaging moves that are not super effective."
+    },
+    "bulletproof": {
+      "name": "Bulletproof",
+      "effect": "Protects against bullet, ball, and bomb-based moves."
+    },
+    "punk-rock": {
+      "name": "Punk Rock",
+      "effect": "Boosts sound-based moves and halves damage from the same moves."
+    },
+    "sturdy": {
+      "name": "Sturdy",
+      "effect": "Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP."
+    },
+    "ice-face": {
+      "name": "Ice Face",
+      "effect": "The Pokémon’s ice head can take a physical attack as a substitute, but the attack also changes the Pokémon’s appearance. The ice will be restored when it snows."
+    },
+    "drought": {
+      "name": "Drought",
+      "effect": "Summons strong sunlight that lasts indefinitely upon entering battle."
+    },
+    "drizzle": {
+      "name": "Drizzle",
+      "effect": "Summons rain that lasts indefinitely upon entering battle."
+    },
+    "steam-engine": {
+      "name": "Steam Engine",
+      "effect": "Boosts the Speed stat drastically when the Pokémon is hit by a Fire- or Water-type move."
+    },
+    "water-compaction": {
+      "name": "Water Compaction",
+      "effect": "Raises this Pokémon's Defense by two stages when it's hit by a Water move."
+    },
+    "thermal-exchange": {
+      "name": "Thermal Exchange",
+      "effect": "Raises Attack when hit by a Fire-type move. Cannot be burned."
+    },
+    "justified": {
+      "name": "Justified",
+      "effect": "Raises Attack one stage upon taking damage from a dark move."
+    },
+    "rattled": {
+      "name": "Rattled",
+      "effect": "Raises Speed one stage upon being hit by a dark, ghost, or bug move."
+    },
+    "weak-armor": {
+      "name": "Weak Armor",
+      "effect": "Raises Speed and lowers Defense by one stage each upon being hit by a physical move."
+    },
+    "earth-eater": {
+      "name": "Earth Eater",
+      "effect": "Restores HP when hit by a Ground-type move."
+    },
+    "gooey": {
+      "name": "Gooey",
+      "effect": "Lowers attacking Pokémon's Speed by one stage on contact."
+    },
+    "tangling-hair": {
+      "name": "Tangling Hair",
+      "effect": "When this Pokémon takes regular damage from a contact move, the attacking Pokémon's Speed lowers by one stage."
+    },
+    "effect-spore": {
+      "name": "Effect Spore",
+      "effect": "Has a 30% chance of inflcting either paralysis, poison, or sleep on attacking Pokémon on contact."
+    },
+    "static": {
+      "name": "Static",
+      "effect": "Has a 30% chance of paralyzing attacking Pokémon on contact."
+    },
+    "poison-point": {
+      "name": "Poison Point",
+      "effect": "Has a 30% chance of poisoning attacking Pokémon on contact."
+    },
+    "flame-body": {
+      "name": "Flame Body",
+      "effect": "Has a 30% chance of burning attacking Pokémon on contact."
+    },
+    "rough-skin": {
+      "name": "Rough Skin",
+      "effect": "Damages attacking Pokémon for 1/8 their max HP on contact."
+    },
+    "iron-barbs": {
+      "name": "Iron Barbs",
+      "effect": "Damages attacking Pokémon for 1/8 their max HP on contact."
+    },
+    "aftermath": {
+      "name": "Aftermath",
+      "effect": "Damages the attacker for 1/4 its max HP when knocked out by a contact move."
+    },
+    "mummy": {
+      "name": "Mummy",
+      "effect": "Changes attacking Pokémon's abilities to Mummy on contact."
+    },
+    "disguise": {
+      "name": "Disguise",
+      "effect": "Prevents the first instance of battle damage."
+    },
+    "overcoat": {
+      "name": "Overcoat",
+      "effect": "Protects against damage from weather."
+    },
+    "armor-tail": {
+      "name": "Armor Tail",
+      "effect": "Prevents the opponent from using any moves that have priority, such as Quick Attack."
+    },
+    "soundproof": {
+      "name": "Soundproof",
+      "effect": "Protects against sound-based moves."
+    },
+    "dazzling": {
+      "name": "Dazzling",
+      "effect": "Opposing Pokémon cannot use priority attacks."
+    },
+    "queenly-majesty": {
+      "name": "Queenly Majesty",
+      "effect": "Opposing Pokémon cannot use priority attacks."
+    },
+    "unaware": {
+      "name": "Unaware",
+      "effect": "Ignores other Pokémon's stat modifiers for damage and accuracy calculation."
+    }
+  },
+  "pokemon": {
+    "25": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "26": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "29": [
+      {
+        "name": "poison-point",
+        "status": "possible"
+      }
+    ],
+    "30": [
+      {
+        "name": "poison-point",
+        "status": "possible"
+      }
+    ],
+    "31": [
+      {
+        "name": "poison-point",
+        "status": "possible"
+      }
+    ],
+    "32": [
+      {
+        "name": "poison-point",
+        "status": "possible"
+      }
+    ],
+    "33": [
+      {
+        "name": "poison-point",
+        "status": "possible"
+      }
+    ],
+    "34": [
+      {
+        "name": "poison-point",
+        "status": "possible"
+      }
+    ],
+    "35": [
+      {
+        "name": "magic-guard",
+        "status": "possible"
+      }
+    ],
+    "36": [
+      {
+        "name": "magic-guard",
+        "status": "possible"
+      },
+      {
+        "name": "unaware",
+        "status": "possible"
+      }
+    ],
+    "37": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      },
+      {
+        "name": "drought",
+        "status": "possible"
+      }
+    ],
+    "38": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      },
+      {
+        "name": "drought",
+        "status": "possible"
+      }
+    ],
+    "45": [
+      {
+        "name": "effect-spore",
+        "status": "possible"
+      }
+    ],
+    "46": [
+      {
+        "name": "dry-skin",
+        "status": "possible"
+      },
+      {
+        "name": "effect-spore",
+        "status": "possible"
+      }
+    ],
+    "47": [
+      {
+        "name": "dry-skin",
+        "status": "possible"
+      },
+      {
+        "name": "effect-spore",
+        "status": "possible"
+      }
+    ],
+    "58": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      },
+      {
+        "name": "justified",
+        "status": "possible"
+      }
+    ],
+    "59": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      },
+      {
+        "name": "justified",
+        "status": "possible"
+      }
+    ],
+    "60": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      }
+    ],
+    "61": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      }
+    ],
+    "62": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      }
+    ],
+    "63": [
+      {
+        "name": "magic-guard",
+        "status": "possible"
+      }
+    ],
+    "64": [
+      {
+        "name": "magic-guard",
+        "status": "possible"
+      }
+    ],
+    "65": [
+      {
+        "name": "magic-guard",
+        "status": "possible"
+      }
+    ],
+    "74": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "75": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "76": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "77": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      },
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "78": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      },
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "81": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "82": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "86": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "87": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "90": [
+      {
+        "name": "overcoat",
+        "status": "possible"
+      }
+    ],
+    "91": [
+      {
+        "name": "overcoat",
+        "status": "possible"
+      }
+    ],
+    "92": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "93": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "95": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      },
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      }
+    ],
+    "100": [
+      {
+        "name": "static",
+        "status": "possible"
+      },
+      {
+        "name": "aftermath",
+        "status": "possible"
+      },
+      {
+        "name": "soundproof",
+        "status": "possible"
+      }
+    ],
+    "101": [
+      {
+        "name": "static",
+        "status": "possible"
+      },
+      {
+        "name": "aftermath",
+        "status": "possible"
+      },
+      {
+        "name": "soundproof",
+        "status": "possible"
+      }
+    ],
+    "104": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      }
+    ],
+    "105": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      }
+    ],
+    "109": [
+      {
+        "name": "levitate",
+        "status": "possible"
+      }
+    ],
+    "110": [
+      {
+        "name": "levitate",
+        "status": "possible"
+      }
+    ],
+    "111": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      }
+    ],
+    "112": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      }
+    ],
+    "117": [
+      {
+        "name": "poison-point",
+        "status": "possible"
+      }
+    ],
+    "118": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      }
+    ],
+    "119": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      }
+    ],
+    "122": [
+      {
+        "name": "filter",
+        "status": "possible"
+      },
+      {
+        "name": "soundproof",
+        "status": "possible"
+      }
+    ],
+    "124": [
+      {
+        "name": "dry-skin",
+        "status": "possible"
+      }
+    ],
+    "125": [
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "126": [
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "129": [
+      {
+        "name": "rattled",
+        "status": "possible"
+      }
+    ],
+    "131": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      }
+    ],
+    "134": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      }
+    ],
+    "135": [
+      {
+        "name": "volt-absorb",
+        "status": "possible"
+      }
+    ],
+    "136": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      }
+    ],
+    "138": [
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      }
+    ],
+    "139": [
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      }
+    ],
+    "140": [
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      }
+    ],
+    "141": [
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      }
+    ],
+    "143": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "145": [
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "146": [
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "149": [
+      {
+        "name": "multiscale",
+        "status": "possible"
+      }
+    ],
+    "155": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      }
+    ],
+    "156": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      }
+    ],
+    "157": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      }
+    ],
+    "165": [
+      {
+        "name": "rattled",
+        "status": "possible"
+      }
+    ],
+    "170": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      },
+      {
+        "name": "volt-absorb",
+        "status": "possible"
+      }
+    ],
+    "171": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      },
+      {
+        "name": "volt-absorb",
+        "status": "possible"
+      }
+    ],
+    "172": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "173": [
+      {
+        "name": "magic-guard",
+        "status": "possible"
+      }
+    ],
+    "179": [
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "180": [
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "181": [
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "183": [
+      {
+        "name": "sap-sipper",
+        "status": "possible"
+      },
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "184": [
+      {
+        "name": "sap-sipper",
+        "status": "possible"
+      },
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "185": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      },
+      {
+        "name": "rattled",
+        "status": "possible"
+      }
+    ],
+    "186": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      },
+      {
+        "name": "drizzle",
+        "status": "possible"
+      }
+    ],
+    "194": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      },
+      {
+        "name": "unaware",
+        "status": "possible"
+      }
+    ],
+    "195": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      },
+      {
+        "name": "unaware",
+        "status": "possible"
+      }
+    ],
+    "200": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "201": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "203": [
+      {
+        "name": "sap-sipper",
+        "status": "possible"
+      }
+    ],
+    "204": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      },
+      {
+        "name": "overcoat",
+        "status": "possible"
+      }
+    ],
+    "205": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      },
+      {
+        "name": "overcoat",
+        "status": "possible"
+      }
+    ],
+    "206": [
+      {
+        "name": "rattled",
+        "status": "possible"
+      }
+    ],
+    "208": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "209": [
+      {
+        "name": "rattled",
+        "status": "possible"
+      }
+    ],
+    "210": [
+      {
+        "name": "rattled",
+        "status": "possible"
+      }
+    ],
+    "211": [
+      {
+        "name": "poison-point",
+        "status": "possible"
+      }
+    ],
+    "213": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "218": [
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      },
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "219": [
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      },
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "220": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "221": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "226": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      }
+    ],
+    "227": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      },
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      }
+    ],
+    "228": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      }
+    ],
+    "229": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      }
+    ],
+    "232": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "234": [
+      {
+        "name": "sap-sipper",
+        "status": "possible"
+      }
+    ],
+    "239": [
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "240": [
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "241": [
+      {
+        "name": "sap-sipper",
+        "status": "possible"
+      },
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "249": [
+      {
+        "name": "multiscale",
+        "status": "possible"
+      }
+    ],
+    "261": [
+      {
+        "name": "rattled",
+        "status": "possible"
+      }
+    ],
+    "279": [
+      {
+        "name": "drizzle",
+        "status": "possible"
+      }
+    ],
+    "285": [
+      {
+        "name": "effect-spore",
+        "status": "possible"
+      }
+    ],
+    "286": [
+      {
+        "name": "effect-spore",
+        "status": "possible"
+      }
+    ],
+    "292": [
+      {
+        "name": "wonder-guard",
+        "status": "guaranteed"
+      }
+    ],
+    "293": [
+      {
+        "name": "rattled",
+        "status": "possible"
+      },
+      {
+        "name": "soundproof",
+        "status": "possible"
+      }
+    ],
+    "294": [
+      {
+        "name": "soundproof",
+        "status": "possible"
+      }
+    ],
+    "295": [
+      {
+        "name": "soundproof",
+        "status": "possible"
+      }
+    ],
+    "296": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "297": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "298": [
+      {
+        "name": "sap-sipper",
+        "status": "possible"
+      },
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "299": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "304": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "305": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "306": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "309": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "310": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "311": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      }
+    ],
+    "312": [
+      {
+        "name": "volt-absorb",
+        "status": "possible"
+      }
+    ],
+    "315": [
+      {
+        "name": "poison-point",
+        "status": "possible"
+      }
+    ],
+    "318": [
+      {
+        "name": "rough-skin",
+        "status": "possible"
+      }
+    ],
+    "319": [
+      {
+        "name": "rough-skin",
+        "status": "possible"
+      }
+    ],
+    "323": [
+      {
+        "name": "solid-rock",
+        "status": "possible"
+      }
+    ],
+    "324": [
+      {
+        "name": "drought",
+        "status": "possible"
+      }
+    ],
+    "325": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "326": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "329": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "330": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "331": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      }
+    ],
+    "332": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      }
+    ],
+    "337": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "338": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "343": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "344": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "345": [
+      {
+        "name": "storm-drain",
+        "status": "possible"
+      }
+    ],
+    "346": [
+      {
+        "name": "storm-drain",
+        "status": "possible"
+      }
+    ],
+    "355": [
+      {
+        "name": "levitate",
+        "status": "possible"
+      }
+    ],
+    "358": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "359": [
+      {
+        "name": "justified",
+        "status": "possible"
+      }
+    ],
+    "363": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "364": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "365": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "366": [
+      {
+        "name": "rattled",
+        "status": "possible"
+      }
+    ],
+    "369": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "372": [
+      {
+        "name": "overcoat",
+        "status": "possible"
+      }
+    ],
+    "377": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "380": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "381": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "382": [
+      {
+        "name": "drizzle",
+        "status": "guaranteed"
+      }
+    ],
+    "383": [
+      {
+        "name": "drought",
+        "status": "guaranteed"
+      }
+    ],
+    "399": [
+      {
+        "name": "unaware",
+        "status": "possible"
+      }
+    ],
+    "400": [
+      {
+        "name": "unaware",
+        "status": "possible"
+      }
+    ],
+    "406": [
+      {
+        "name": "poison-point",
+        "status": "possible"
+      }
+    ],
+    "407": [
+      {
+        "name": "poison-point",
+        "status": "possible"
+      }
+    ],
+    "410": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      },
+      {
+        "name": "soundproof",
+        "status": "possible"
+      }
+    ],
+    "411": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      },
+      {
+        "name": "soundproof",
+        "status": "possible"
+      }
+    ],
+    "412": [
+      {
+        "name": "overcoat",
+        "status": "possible"
+      }
+    ],
+    "413": [
+      {
+        "name": "overcoat",
+        "status": "possible"
+      }
+    ],
+    "417": [
+      {
+        "name": "volt-absorb",
+        "status": "possible"
+      }
+    ],
+    "422": [
+      {
+        "name": "storm-drain",
+        "status": "possible"
+      }
+    ],
+    "423": [
+      {
+        "name": "storm-drain",
+        "status": "possible"
+      }
+    ],
+    "425": [
+      {
+        "name": "aftermath",
+        "status": "possible"
+      }
+    ],
+    "426": [
+      {
+        "name": "aftermath",
+        "status": "possible"
+      }
+    ],
+    "429": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "432": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "433": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "434": [
+      {
+        "name": "aftermath",
+        "status": "possible"
+      }
+    ],
+    "435": [
+      {
+        "name": "aftermath",
+        "status": "possible"
+      }
+    ],
+    "436": [
+      {
+        "name": "levitate",
+        "status": "possible"
+      },
+      {
+        "name": "heatproof",
+        "status": "possible"
+      }
+    ],
+    "437": [
+      {
+        "name": "levitate",
+        "status": "possible"
+      },
+      {
+        "name": "heatproof",
+        "status": "possible"
+      }
+    ],
+    "438": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      },
+      {
+        "name": "rattled",
+        "status": "possible"
+      }
+    ],
+    "439": [
+      {
+        "name": "filter",
+        "status": "possible"
+      },
+      {
+        "name": "soundproof",
+        "status": "possible"
+      }
+    ],
+    "443": [
+      {
+        "name": "rough-skin",
+        "status": "possible"
+      }
+    ],
+    "444": [
+      {
+        "name": "rough-skin",
+        "status": "possible"
+      }
+    ],
+    "445": [
+      {
+        "name": "rough-skin",
+        "status": "possible"
+      }
+    ],
+    "446": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "448": [
+      {
+        "name": "justified",
+        "status": "possible"
+      }
+    ],
+    "453": [
+      {
+        "name": "dry-skin",
+        "status": "possible"
+      }
+    ],
+    "454": [
+      {
+        "name": "dry-skin",
+        "status": "possible"
+      }
+    ],
+    "455": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "456": [
+      {
+        "name": "storm-drain",
+        "status": "possible"
+      }
+    ],
+    "457": [
+      {
+        "name": "storm-drain",
+        "status": "possible"
+      }
+    ],
+    "458": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      }
+    ],
+    "459": [
+      {
+        "name": "soundproof",
+        "status": "possible"
+      }
+    ],
+    "460": [
+      {
+        "name": "soundproof",
+        "status": "possible"
+      }
+    ],
+    "462": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "464": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "solid-rock",
+        "status": "possible"
+      }
+    ],
+    "466": [
+      {
+        "name": "motor-drive",
+        "status": "possible"
+      }
+    ],
+    "467": [
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "473": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "475": [
+      {
+        "name": "justified",
+        "status": "possible"
+      }
+    ],
+    "476": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "479": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "480": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "481": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "482": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "485": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      },
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "488": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "498": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "499": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "522": [
+      {
+        "name": "sap-sipper",
+        "status": "possible"
+      },
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "motor-drive",
+        "status": "possible"
+      }
+    ],
+    "523": [
+      {
+        "name": "sap-sipper",
+        "status": "possible"
+      },
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "motor-drive",
+        "status": "possible"
+      }
+    ],
+    "524": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      },
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      }
+    ],
+    "525": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      },
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      }
+    ],
+    "526": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "527": [
+      {
+        "name": "unaware",
+        "status": "possible"
+      }
+    ],
+    "528": [
+      {
+        "name": "unaware",
+        "status": "possible"
+      }
+    ],
+    "535": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      }
+    ],
+    "536": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      }
+    ],
+    "537": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      }
+    ],
+    "539": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "540": [
+      {
+        "name": "overcoat",
+        "status": "possible"
+      }
+    ],
+    "541": [
+      {
+        "name": "overcoat",
+        "status": "possible"
+      }
+    ],
+    "542": [
+      {
+        "name": "overcoat",
+        "status": "possible"
+      }
+    ],
+    "543": [
+      {
+        "name": "poison-point",
+        "status": "possible"
+      }
+    ],
+    "544": [
+      {
+        "name": "poison-point",
+        "status": "possible"
+      }
+    ],
+    "545": [
+      {
+        "name": "poison-point",
+        "status": "possible"
+      }
+    ],
+    "556": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      },
+      {
+        "name": "storm-drain",
+        "status": "possible"
+      }
+    ],
+    "557": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      },
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      }
+    ],
+    "558": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      },
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      }
+    ],
+    "561": [
+      {
+        "name": "magic-guard",
+        "status": "possible"
+      }
+    ],
+    "562": [
+      {
+        "name": "mummy",
+        "status": "guaranteed"
+      }
+    ],
+    "563": [
+      {
+        "name": "mummy",
+        "status": "guaranteed"
+      }
+    ],
+    "564": [
+      {
+        "name": "solid-rock",
+        "status": "possible"
+      },
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "565": [
+      {
+        "name": "solid-rock",
+        "status": "possible"
+      },
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "568": [
+      {
+        "name": "aftermath",
+        "status": "possible"
+      }
+    ],
+    "569": [
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      },
+      {
+        "name": "aftermath",
+        "status": "possible"
+      }
+    ],
+    "577": [
+      {
+        "name": "magic-guard",
+        "status": "possible"
+      },
+      {
+        "name": "overcoat",
+        "status": "possible"
+      }
+    ],
+    "578": [
+      {
+        "name": "magic-guard",
+        "status": "possible"
+      },
+      {
+        "name": "overcoat",
+        "status": "possible"
+      }
+    ],
+    "579": [
+      {
+        "name": "magic-guard",
+        "status": "possible"
+      },
+      {
+        "name": "overcoat",
+        "status": "possible"
+      }
+    ],
+    "582": [
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      }
+    ],
+    "583": [
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      }
+    ],
+    "584": [
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      }
+    ],
+    "585": [
+      {
+        "name": "sap-sipper",
+        "status": "possible"
+      }
+    ],
+    "586": [
+      {
+        "name": "sap-sipper",
+        "status": "possible"
+      }
+    ],
+    "587": [
+      {
+        "name": "motor-drive",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "589": [
+      {
+        "name": "overcoat",
+        "status": "possible"
+      }
+    ],
+    "590": [
+      {
+        "name": "effect-spore",
+        "status": "possible"
+      }
+    ],
+    "591": [
+      {
+        "name": "effect-spore",
+        "status": "possible"
+      }
+    ],
+    "592": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      }
+    ],
+    "593": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      }
+    ],
+    "597": [
+      {
+        "name": "iron-barbs",
+        "status": "guaranteed"
+      }
+    ],
+    "598": [
+      {
+        "name": "iron-barbs",
+        "status": "possible"
+      }
+    ],
+    "602": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "603": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "604": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "607": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      },
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "608": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      },
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "609": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      },
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "613": [
+      {
+        "name": "rattled",
+        "status": "possible"
+      }
+    ],
+    "615": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "616": [
+      {
+        "name": "overcoat",
+        "status": "possible"
+      }
+    ],
+    "618": [
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "621": [
+      {
+        "name": "rough-skin",
+        "status": "possible"
+      }
+    ],
+    "626": [
+      {
+        "name": "sap-sipper",
+        "status": "possible"
+      },
+      {
+        "name": "soundproof",
+        "status": "possible"
+      }
+    ],
+    "629": [
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      },
+      {
+        "name": "overcoat",
+        "status": "possible"
+      }
+    ],
+    "630": [
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      },
+      {
+        "name": "overcoat",
+        "status": "possible"
+      }
+    ],
+    "631": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      }
+    ],
+    "635": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "636": [
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "637": [
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "638": [
+      {
+        "name": "justified",
+        "status": "guaranteed"
+      }
+    ],
+    "639": [
+      {
+        "name": "justified",
+        "status": "guaranteed"
+      }
+    ],
+    "640": [
+      {
+        "name": "justified",
+        "status": "guaranteed"
+      }
+    ],
+    "647": [
+      {
+        "name": "justified",
+        "status": "guaranteed"
+      }
+    ],
+    "650": [
+      {
+        "name": "bulletproof",
+        "status": "possible"
+      }
+    ],
+    "651": [
+      {
+        "name": "bulletproof",
+        "status": "possible"
+      }
+    ],
+    "652": [
+      {
+        "name": "bulletproof",
+        "status": "possible"
+      }
+    ],
+    "662": [
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "663": [
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "672": [
+      {
+        "name": "sap-sipper",
+        "status": "possible"
+      }
+    ],
+    "673": [
+      {
+        "name": "sap-sipper",
+        "status": "possible"
+      }
+    ],
+    "676": [
+      {
+        "name": "fur-coat",
+        "status": "guaranteed"
+      }
+    ],
+    "690": [
+      {
+        "name": "poison-point",
+        "status": "possible"
+      }
+    ],
+    "691": [
+      {
+        "name": "poison-point",
+        "status": "possible"
+      }
+    ],
+    "694": [
+      {
+        "name": "dry-skin",
+        "status": "possible"
+      }
+    ],
+    "695": [
+      {
+        "name": "dry-skin",
+        "status": "possible"
+      }
+    ],
+    "696": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "703": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "704": [
+      {
+        "name": "sap-sipper",
+        "status": "possible"
+      },
+      {
+        "name": "gooey",
+        "status": "possible"
+      }
+    ],
+    "705": [
+      {
+        "name": "sap-sipper",
+        "status": "possible"
+      },
+      {
+        "name": "gooey",
+        "status": "possible"
+      }
+    ],
+    "706": [
+      {
+        "name": "sap-sipper",
+        "status": "possible"
+      },
+      {
+        "name": "gooey",
+        "status": "possible"
+      }
+    ],
+    "712": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "713": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "721": [
+      {
+        "name": "water-absorb",
+        "status": "guaranteed"
+      }
+    ],
+    "738": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "751": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      },
+      {
+        "name": "water-bubble",
+        "status": "possible"
+      }
+    ],
+    "752": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      },
+      {
+        "name": "water-bubble",
+        "status": "possible"
+      }
+    ],
+    "755": [
+      {
+        "name": "effect-spore",
+        "status": "possible"
+      }
+    ],
+    "756": [
+      {
+        "name": "effect-spore",
+        "status": "possible"
+      }
+    ],
+    "759": [
+      {
+        "name": "fluffy",
+        "status": "possible"
+      }
+    ],
+    "760": [
+      {
+        "name": "fluffy",
+        "status": "possible"
+      }
+    ],
+    "763": [
+      {
+        "name": "queenly-majesty",
+        "status": "possible"
+      }
+    ],
+    "769": [
+      {
+        "name": "water-compaction",
+        "status": "possible"
+      }
+    ],
+    "770": [
+      {
+        "name": "water-compaction",
+        "status": "possible"
+      }
+    ],
+    "771": [
+      {
+        "name": "unaware",
+        "status": "possible"
+      }
+    ],
+    "777": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "sturdy",
+        "status": "possible"
+      },
+      {
+        "name": "iron-barbs",
+        "status": "possible"
+      }
+    ],
+    "778": [
+      {
+        "name": "disguise",
+        "status": "guaranteed"
+      }
+    ],
+    "779": [
+      {
+        "name": "dazzling",
+        "status": "possible"
+      }
+    ],
+    "780": [
+      {
+        "name": "sap-sipper",
+        "status": "possible"
+      }
+    ],
+    "782": [
+      {
+        "name": "bulletproof",
+        "status": "possible"
+      },
+      {
+        "name": "overcoat",
+        "status": "possible"
+      },
+      {
+        "name": "soundproof",
+        "status": "possible"
+      }
+    ],
+    "783": [
+      {
+        "name": "bulletproof",
+        "status": "possible"
+      },
+      {
+        "name": "overcoat",
+        "status": "possible"
+      },
+      {
+        "name": "soundproof",
+        "status": "possible"
+      }
+    ],
+    "784": [
+      {
+        "name": "bulletproof",
+        "status": "possible"
+      },
+      {
+        "name": "overcoat",
+        "status": "possible"
+      },
+      {
+        "name": "soundproof",
+        "status": "possible"
+      }
+    ],
+    "789": [
+      {
+        "name": "unaware",
+        "status": "guaranteed"
+      }
+    ],
+    "790": [
+      {
+        "name": "sturdy",
+        "status": "guaranteed"
+      }
+    ],
+    "792": [
+      {
+        "name": "shadow-shield",
+        "status": "guaranteed"
+      }
+    ],
+    "800": [
+      {
+        "name": "prism-armor",
+        "status": "guaranteed"
+      }
+    ],
+    "807": [
+      {
+        "name": "volt-absorb",
+        "status": "guaranteed"
+      }
+    ],
+    "829": [
+      {
+        "name": "effect-spore",
+        "status": "possible"
+      }
+    ],
+    "830": [
+      {
+        "name": "effect-spore",
+        "status": "possible"
+      }
+    ],
+    "831": [
+      {
+        "name": "fluffy",
+        "status": "possible"
+      },
+      {
+        "name": "bulletproof",
+        "status": "possible"
+      }
+    ],
+    "832": [
+      {
+        "name": "fluffy",
+        "status": "possible"
+      },
+      {
+        "name": "bulletproof",
+        "status": "possible"
+      }
+    ],
+    "835": [
+      {
+        "name": "rattled",
+        "status": "possible"
+      }
+    ],
+    "837": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      },
+      {
+        "name": "heatproof",
+        "status": "possible"
+      },
+      {
+        "name": "steam-engine",
+        "status": "possible"
+      }
+    ],
+    "838": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      },
+      {
+        "name": "steam-engine",
+        "status": "possible"
+      },
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "839": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      },
+      {
+        "name": "steam-engine",
+        "status": "possible"
+      },
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "840": [
+      {
+        "name": "bulletproof",
+        "status": "possible"
+      }
+    ],
+    "842": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "848": [
+      {
+        "name": "rattled",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "849": [
+      {
+        "name": "punk-rock",
+        "status": "possible"
+      }
+    ],
+    "850": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      },
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "851": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      },
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "854": [
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      }
+    ],
+    "855": [
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      }
+    ],
+    "864": [
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      }
+    ],
+    "871": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      }
+    ],
+    "872": [
+      {
+        "name": "ice-scales",
+        "status": "possible"
+      }
+    ],
+    "873": [
+      {
+        "name": "ice-scales",
+        "status": "possible"
+      }
+    ],
+    "875": [
+      {
+        "name": "ice-face",
+        "status": "guaranteed"
+      }
+    ],
+    "880": [
+      {
+        "name": "volt-absorb",
+        "status": "possible"
+      }
+    ],
+    "881": [
+      {
+        "name": "volt-absorb",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "882": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      }
+    ],
+    "883": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      }
+    ],
+    "899": [
+      {
+        "name": "sap-sipper",
+        "status": "possible"
+      }
+    ],
+    "901": [
+      {
+        "name": "bulletproof",
+        "status": "possible"
+      }
+    ],
+    "904": [
+      {
+        "name": "poison-point",
+        "status": "possible"
+      }
+    ],
+    "909": [
+      {
+        "name": "unaware",
+        "status": "possible"
+      }
+    ],
+    "910": [
+      {
+        "name": "unaware",
+        "status": "possible"
+      }
+    ],
+    "911": [
+      {
+        "name": "unaware",
+        "status": "possible"
+      }
+    ],
+    "915": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "916": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "921": [
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "922": [
+      {
+        "name": "volt-absorb",
+        "status": "possible"
+      }
+    ],
+    "923": [
+      {
+        "name": "volt-absorb",
+        "status": "possible"
+      }
+    ],
+    "932": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "933": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "934": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "935": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      },
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "936": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      },
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      }
+    ],
+    "937": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      },
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      }
+    ],
+    "938": [
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "939": [
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "940": [
+      {
+        "name": "volt-absorb",
+        "status": "possible"
+      }
+    ],
+    "941": [
+      {
+        "name": "volt-absorb",
+        "status": "possible"
+      }
+    ],
+    "960": [
+      {
+        "name": "rattled",
+        "status": "possible"
+      },
+      {
+        "name": "gooey",
+        "status": "possible"
+      }
+    ],
+    "961": [
+      {
+        "name": "rattled",
+        "status": "possible"
+      },
+      {
+        "name": "gooey",
+        "status": "possible"
+      }
+    ],
+    "965": [
+      {
+        "name": "overcoat",
+        "status": "possible"
+      }
+    ],
+    "966": [
+      {
+        "name": "filter",
+        "status": "possible"
+      },
+      {
+        "name": "overcoat",
+        "status": "possible"
+      }
+    ],
+    "968": [
+      {
+        "name": "earth-eater",
+        "status": "possible"
+      }
+    ],
+    "971": [
+      {
+        "name": "fluffy",
+        "status": "possible"
+      }
+    ],
+    "972": [
+      {
+        "name": "fluffy",
+        "status": "possible"
+      }
+    ],
+    "974": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "975": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "977": [
+      {
+        "name": "unaware",
+        "status": "possible"
+      }
+    ],
+    "978": [
+      {
+        "name": "storm-drain",
+        "status": "possible"
+      }
+    ],
+    "980": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      },
+      {
+        "name": "poison-point",
+        "status": "possible"
+      },
+      {
+        "name": "unaware",
+        "status": "possible"
+      }
+    ],
+    "981": [
+      {
+        "name": "sap-sipper",
+        "status": "possible"
+      },
+      {
+        "name": "armor-tail",
+        "status": "possible"
+      }
+    ],
+    "982": [
+      {
+        "name": "rattled",
+        "status": "possible"
+      }
+    ],
+    "996": [
+      {
+        "name": "thermal-exchange",
+        "status": "possible"
+      }
+    ],
+    "997": [
+      {
+        "name": "thermal-exchange",
+        "status": "possible"
+      }
+    ],
+    "998": [
+      {
+        "name": "thermal-exchange",
+        "status": "possible"
+      }
+    ],
+    "999": [
+      {
+        "name": "rattled",
+        "status": "guaranteed"
+      }
+    ],
+    "1012": [
+      {
+        "name": "heatproof",
+        "status": "possible"
+      }
+    ],
+    "1013": [
+      {
+        "name": "heatproof",
+        "status": "possible"
+      }
+    ],
+    "1018": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "10004": [
+      {
+        "name": "overcoat",
+        "status": "possible"
+      }
+    ],
+    "10005": [
+      {
+        "name": "overcoat",
+        "status": "possible"
+      }
+    ],
+    "10007": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "10008": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "10009": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "10010": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "10011": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "10012": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "10020": [
+      {
+        "name": "volt-absorb",
+        "status": "guaranteed"
+      }
+    ],
+    "10024": [
+      {
+        "name": "justified",
+        "status": "guaranteed"
+      }
+    ],
+    "10033": [
+      {
+        "name": "thick-fat",
+        "status": "guaranteed"
+      }
+    ],
+    "10035": [
+      {
+        "name": "drought",
+        "status": "guaranteed"
+      }
+    ],
+    "10053": [
+      {
+        "name": "filter",
+        "status": "guaranteed"
+      }
+    ],
+    "10062": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "10063": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "10065": [
+      {
+        "name": "lightning-rod",
+        "status": "guaranteed"
+      }
+    ],
+    "10077": [
+      {
+        "name": "primordial-sea",
+        "status": "guaranteed"
+      }
+    ],
+    "10078": [
+      {
+        "name": "desolate-land",
+        "status": "guaranteed"
+      }
+    ],
+    "10079": [
+      {
+        "name": "delta-stream",
+        "status": "guaranteed"
+      }
+    ],
+    "10080": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "10081": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "10082": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "10083": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "10084": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "10085": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "10091": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "10092": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "10093": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "10094": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "10095": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "10096": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "10097": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "10098": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "10099": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "10105": [
+      {
+        "name": "tangling-hair",
+        "status": "possible"
+      }
+    ],
+    "10106": [
+      {
+        "name": "tangling-hair",
+        "status": "possible"
+      }
+    ],
+    "10107": [
+      {
+        "name": "rattled",
+        "status": "possible"
+      }
+    ],
+    "10108": [
+      {
+        "name": "fur-coat",
+        "status": "possible"
+      },
+      {
+        "name": "rattled",
+        "status": "possible"
+      }
+    ],
+    "10109": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "10110": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "10111": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "10115": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      }
+    ],
+    "10122": [
+      {
+        "name": "levitate",
+        "status": "guaranteed"
+      }
+    ],
+    "10143": [
+      {
+        "name": "disguise",
+        "status": "guaranteed"
+      }
+    ],
+    "10144": [
+      {
+        "name": "disguise",
+        "status": "guaranteed"
+      }
+    ],
+    "10145": [
+      {
+        "name": "disguise",
+        "status": "guaranteed"
+      }
+    ],
+    "10146": [
+      {
+        "name": "bulletproof",
+        "status": "possible"
+      },
+      {
+        "name": "overcoat",
+        "status": "possible"
+      },
+      {
+        "name": "soundproof",
+        "status": "possible"
+      }
+    ],
+    "10148": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "10149": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      }
+    ],
+    "10153": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      },
+      {
+        "name": "water-bubble",
+        "status": "possible"
+      }
+    ],
+    "10154": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "sturdy",
+        "status": "possible"
+      },
+      {
+        "name": "iron-barbs",
+        "status": "possible"
+      }
+    ],
+    "10155": [
+      {
+        "name": "prism-armor",
+        "status": "guaranteed"
+      }
+    ],
+    "10156": [
+      {
+        "name": "prism-armor",
+        "status": "guaranteed"
+      }
+    ],
+    "10158": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "10160": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "10167": [
+      {
+        "name": "levitate",
+        "status": "possible"
+      }
+    ],
+    "10173": [
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      }
+    ],
+    "10184": [
+      {
+        "name": "punk-rock",
+        "status": "possible"
+      }
+    ],
+    "10185": [
+      {
+        "name": "ice-face",
+        "status": "guaranteed"
+      }
+    ],
+    "10199": [
+      {
+        "name": "lightning-rod",
+        "status": "possible"
+      },
+      {
+        "name": "static",
+        "status": "possible"
+      }
+    ],
+    "10204": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      }
+    ],
+    "10206": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "10207": [
+      {
+        "name": "weak-armor",
+        "status": "possible"
+      },
+      {
+        "name": "aftermath",
+        "status": "possible"
+      }
+    ],
+    "10215": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      },
+      {
+        "name": "steam-engine",
+        "status": "possible"
+      },
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "10217": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "10219": [
+      {
+        "name": "punk-rock",
+        "status": "possible"
+      }
+    ],
+    "10220": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      },
+      {
+        "name": "flame-body",
+        "status": "possible"
+      }
+    ],
+    "10228": [
+      {
+        "name": "punk-rock",
+        "status": "possible"
+      }
+    ],
+    "10229": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      }
+    ],
+    "10230": [
+      {
+        "name": "flash-fire",
+        "status": "possible"
+      }
+    ],
+    "10231": [
+      {
+        "name": "static",
+        "status": "possible"
+      },
+      {
+        "name": "aftermath",
+        "status": "possible"
+      },
+      {
+        "name": "soundproof",
+        "status": "possible"
+      }
+    ],
+    "10232": [
+      {
+        "name": "static",
+        "status": "possible"
+      },
+      {
+        "name": "aftermath",
+        "status": "possible"
+      },
+      {
+        "name": "soundproof",
+        "status": "possible"
+      }
+    ],
+    "10234": [
+      {
+        "name": "poison-point",
+        "status": "possible"
+      }
+    ],
+    "10241": [
+      {
+        "name": "sap-sipper",
+        "status": "possible"
+      },
+      {
+        "name": "gooey",
+        "status": "possible"
+      }
+    ],
+    "10242": [
+      {
+        "name": "sap-sipper",
+        "status": "possible"
+      },
+      {
+        "name": "gooey",
+        "status": "possible"
+      }
+    ],
+    "10243": [
+      {
+        "name": "sturdy",
+        "status": "possible"
+      }
+    ],
+    "10247": [
+      {
+        "name": "rattled",
+        "status": "possible"
+      }
+    ],
+    "10249": [
+      {
+        "name": "overcoat",
+        "status": "guaranteed"
+      }
+    ],
+    "10253": [
+      {
+        "name": "water-absorb",
+        "status": "possible"
+      },
+      {
+        "name": "poison-point",
+        "status": "possible"
+      },
+      {
+        "name": "unaware",
+        "status": "possible"
+      }
+    ],
+    "10254": [
+      {
+        "name": "thick-fat",
+        "status": "possible"
+      }
+    ],
+    "10255": [
+      {
+        "name": "rattled",
+        "status": "possible"
+      }
+    ],
+    "10258": [
+      {
+        "name": "storm-drain",
+        "status": "possible"
+      }
+    ],
+    "10259": [
+      {
+        "name": "storm-drain",
+        "status": "possible"
+      }
+    ],
+    "10273": [
+      {
+        "name": "water-absorb",
+        "status": "guaranteed"
+      }
+    ],
+    "10275": [
+      {
+        "name": "sturdy",
+        "status": "guaranteed"
+      }
+    ]
+  }
+}

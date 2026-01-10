@@ -1,0 +1,310 @@
+.app {
+  min-height: 100vh;
+  background: #0f1116;
+  color: #e6e6e6;
+  font-family: system-ui;
+}
+
+.container {
+  width: min(1600px, 100% - 36px);
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.search {
+  width: 100%;
+  max-width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: #0f1116;
+  border: 1px solid #2b3242;
+  color: #e6e6e6;
+  outline: none;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 16px;
+  margin-top: 16px;
+  align-items: start;
+}
+.gridTop {
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+  border-bottom: 1px solid #2b3242;
+  background: #121622;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+  width: 100%;
+}
+
+/* Sticky search bar (left panel) */
+.stickyLeftTop {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+@media (max-width: 1000px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.panel {
+  background: #121622;
+  border: 1px solid #2b3242;
+  border-radius: 14px;
+}
+
+.gridWrap {
+  padding: 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+  gap: 12px;
+}
+
+.card {
+  background: #0f1116;
+  border: 1px solid #2b3242;
+  border-radius: 12px;
+  padding: 10px 8px;
+  cursor: pointer;
+  text-align: center;
+  transition: transform 120ms ease, border-color 120ms ease;
+  user-select: none;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  border-color: #3a4560;
+}
+
+.cardSelected {
+  border-color: #6f7ea8;
+}
+
+.sprite {
+  width: 72px;
+  height: 72px;
+  image-rendering: pixelated;
+}
+
+.name {
+  margin-top: 6px;
+  font-size: 12px;
+  opacity: 0.9;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sidebar {
+  padding: 14px;
+}
+
+.sidebarTop {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+
+.sidebarSprite {
+  width: 96px;
+  height: 96px;
+  image-rendering: pixelated;
+  background: #0f1116;
+  border: 1px solid #2b3242;
+  border-radius: 12px;
+}
+
+.titleRow {
+  display: flex;
+  flex-direction: column; /* stack name + typing */
+  gap: 2px;
+}
+.titleRow .pokemonName {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.titleRow .pokemonTypes {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.pill {
+  display: inline-flex;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #1f2430;
+  border: 1px solid #2b3242;
+  font-size: 13px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.sectionGrid {
+  margin-top: 14px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.section {
+  background: #0f1116;
+  border: 1px solid #2b3242;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.sectionTitle {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.muted {
+  opacity: 0.65;
+  font-size: 13px;
+}
+
+.lockRow {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.button {
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: #0f1116;
+  border: 1px solid #2b3242;
+  color: #e6e6e6;
+  cursor: pointer;
+}
+
+.button:hover {
+  border-color: #3a4560;
+}
+
+
+
+.abilityPill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #1f2430;
+  border: 1px solid #2b3242;
+  font-size: 13px;
+  white-space: nowrap;
+}
+.abilityLabel {
+  color: #e6e6e6;   /* same white as main text */
+  opacity: 1;
+  font-size: 13px;
+}
+.abilityGuaranteed {
+  font-style: normal;
+  opacity: 1;
+}
+
+.abilityPossible {
+  font-style: italic;
+  opacity: 0.85;
+}
+
+/* Optional subtle info dot */
+.abilityDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #8b93a7;
+  opacity: 0.7;
+}
+
+/* Make sticky sidebar fill viewport height */
+.stickyRight {
+  position: sticky;
+  top: 16px;                 /* match your layout gap */
+  height: calc(100vh - 32px);/* 2 * top */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Scroll only the long content area */
+.sidebarScroll {
+  overflow-y: auto;
+  padding-right: 6px;        /* avoids content under scrollbar */
+  margin-top: 10px;
+  flex: 1;                   /* take remaining height */
+  min-height: 0;             /* IMPORTANT: allows flex child to shrink & scroll */
+}
+
+.sidebarScroll::-webkit-scrollbar {
+  width: 10px;
+}
+.sidebarScroll::-webkit-scrollbar-thumb {
+  background: #2b3242;
+  border-radius: 999px;
+}
+.sidebarScroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.appTitle {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.appLogo {
+  height: 40px;              /* adjust as needed */
+  image-rendering: pixelated;
+}
+
+.appTagline {
+  font-size: 14px;
+  opacity: 0.7;
+  white-space: nowrap;
+}
+
+.appIcon {
+  height: 40px;
+  image-rendering: pixelated;
+  opacity: 0.9;
+  margin-top: 2px;
+  
+}
+
+.appIcon:hover {
+  transform: scale(1.05);
+}
+
+.pageFooter {
+  margin-top: 24px;
+  padding: 14px 12px;
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.55;
+  color: #e6e6e6;
+}
