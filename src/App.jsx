@@ -80,6 +80,52 @@ function Section({ title, items }) {
   );
 }
 
+function BaseStats({ baseStats }) {
+  if (!baseStats) return null;
+
+  return (
+    <div style={{ marginTop: 14 }}>
+      <div className="sectionTitle">Base Stats</div>
+
+      <div className="statsGrid2">
+        <div className="statRow">
+          <span className="statLabel">HP</span>
+          <span className="statValue">{baseStats.hp}</span>
+        </div>
+
+        <div className="statRow">
+          <span className="statLabel">Atk</span>
+          <span className="statValue">{baseStats.attack}</span>
+        </div>
+
+        <div className="statRow">
+          <span className="statLabel">Def</span>
+          <span className="statValue">{baseStats.defense}</span>
+        </div>
+
+        <div className="statRow">
+          <span className="statLabel">Spd</span>
+          <span className="statValue">{baseStats.speed}</span>
+        </div>
+
+        <div className="statRow">
+          <span className="statLabel">SpAtk</span>
+          <span className="statValue">{baseStats.spattack}</span>
+        </div>
+
+        <div className="statRow">
+          <span className="statLabel">SpDef</span>
+          <span className="statValue">{baseStats.spdefense}</span>
+        </div>
+      </div>
+
+      {typeof baseStats.total === "number" && (
+        <div className="statTotal">Total: {baseStats.total}</div>
+      )}
+    </div>
+  );
+}
+
 export default function App() {
   // If your dataset includes forms/meg as separate IDs, those sprites may not exist at the base sprite URL.
   // For the grid UX, it’s best to show base species only.
@@ -340,6 +386,7 @@ const buckets = useMemo(() => {
                   )}
                 </div>
               )}
+              <BaseStats baseStats={selected.baseStats} />
                 <div className="sidebarScroll">
                 <div className="sectionGrid">
                   <Section title="Weak (4×)" items={buckets?.["4x"] ?? []} />

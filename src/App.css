@@ -37,6 +37,12 @@
   margin-top: 16px;
   align-items: start;
 }
+@media (max-width: 1000px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}
+
 .gridTop {
   display: grid;
   gap: 10px;
@@ -55,12 +61,13 @@
   top: 0;
   z-index: 10;
 }
-@media (max-width: 1000px) {
-  .layout {
-    grid-template-columns: 1fr;
-  }
-}
 
+/* Sticky search bar (left panel) */
+.stickyLeftTop {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
 .panel {
   background: #121622;
   border: 1px solid #2b3242;
@@ -307,4 +314,31 @@
   font-size: 12px;
   opacity: 0.55;
   color: #e6e6e6;
+}
+
+.statsGrid2 {
+  margin-top: 8px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.statRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  background: #0f1116;
+  border: 1px solid #2b3242;
+  border-radius: 12px;
+}
+
+.statLabel {
+  font-weight: 700;
+  opacity: 0.85;
+}
+
+.statValue {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
 }
